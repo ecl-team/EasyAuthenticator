@@ -32,7 +32,7 @@ namespace authlib
                 return false;
         }
 
-        public static string Code(string UserID)
+        public static string CurrentCode(string UserID)
         {
             int seconds = Convert.ToInt32(DateTime.Now.Subtract(new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Local)).TotalSeconds);
             string Key = UserID + (seconds - (seconds % 60));
@@ -40,7 +40,7 @@ namespace authlib
             string Code = "";
             for (int i = 0; i < 8; i++)
             {
-                Code += "" + int.Parse("" +
+                Code += "" + long.Parse("" +
                     hash.Hash.ToCharArray()[8 * i] +
                     hash.Hash.ToCharArray()[8 * i + 1] +
                     hash.Hash.ToCharArray()[8 * i + 2] +
@@ -50,7 +50,7 @@ namespace authlib
                     hash.Hash.ToCharArray()[8 * i + 6] +
                     hash.Hash.ToCharArray()[8 * i + 7], System.Globalization.NumberStyles.HexNumber) % 10;
             }
-            return Code.Replace("-", "");
+            return Code;
         }
     }
 }

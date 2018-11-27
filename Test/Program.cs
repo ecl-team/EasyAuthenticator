@@ -11,7 +11,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(authlib.Authentication.Code("thisismytoken"));
+            Console.WriteLine(Authentication.CurrentCode(""));
             Console.ReadLine();
         }
     }
