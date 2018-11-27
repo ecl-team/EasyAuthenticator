@@ -1,0 +1,8 @@
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\bin\Debug\Test.exe.config
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\bin\Debug\Test.exe
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\bin\Debug\Test.pdb
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\bin\Debug\authlib.dll
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\bin\Debug\authlib.pdb
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\obj\Debug\Test.exe
+c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Test\obj\Debug\Test.pdb
