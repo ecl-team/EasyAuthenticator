@@ -1,0 +1,5 @@
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\qrlib\obj\Debug\qrlib.csprojResolveAssemblyReference.cache
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\qrlib.dll
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\qrlib.pdb
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\qrlib\obj\Debug\qrlib.dll
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\qrlib\obj\Debug\qrlib.pdb
