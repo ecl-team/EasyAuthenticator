@@ -12,20 +12,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            string Token = EBase64.Generate(64);
-            ConsoleLib.Write("Token: ", ConsoleColor.Red);
-            Console.WriteLine(Token);
-            string LastCode = "";
-            while(true)
-            {
-                if (LastCode != Authentication.CurrentCode(Token))
-                {
-                    ConsoleLib.Write("New Code: ", ConsoleColor.Red);
-                    Console.WriteLine(Authentication.CurrentCode(Token));
-                    LastCode = Authentication.CurrentCode(Token);
-                }
-                Thread.Sleep(100);
-            }
+            ConsoleLib.WriteLineColor("hej jag heter filip och &6vb är gay");
+            Console.ReadLine();
         }
     }
 }
