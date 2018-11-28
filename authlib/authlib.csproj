@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication.cs" />
+    <Compile Include="ConsoleLib.cs" />
+    <Compile Include="EBase64.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ESHA256.cs" />
   </ItemGroup>
