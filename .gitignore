@@ -337,3 +337,6 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 .vs/EasyAuthenticator/v15/.suo
+*.cache
+.vs/EasyAuthenticator/v15/.suo
+*.cache
