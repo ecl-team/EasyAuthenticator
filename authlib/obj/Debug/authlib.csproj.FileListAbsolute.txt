@@ -8,3 +8,5 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Build\authlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.csprojResolveAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.dll
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.pdb
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\authlib.dll
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\authlib.pdb

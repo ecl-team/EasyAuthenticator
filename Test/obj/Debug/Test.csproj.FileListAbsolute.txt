@@ -17,3 +17,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.exe.config
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.pdb
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.exe.config
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.exe
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.pdb
