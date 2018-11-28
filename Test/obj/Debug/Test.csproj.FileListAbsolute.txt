@@ -14,3 +14,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Debug\authlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.exe.config
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.exe
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.pdb

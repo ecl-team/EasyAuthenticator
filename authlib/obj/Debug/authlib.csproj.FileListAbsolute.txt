@@ -3,3 +3,8 @@ c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\auth
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csprojResolveAssemblyReference.cache
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.dll
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\authlib.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.csprojResolveAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.pdb

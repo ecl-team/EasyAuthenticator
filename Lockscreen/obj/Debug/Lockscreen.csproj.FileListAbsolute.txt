@@ -12,3 +12,17 @@ c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Lock
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.GenerateResource.Cache
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.exe
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.exe.config
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.exe
+C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csprojResolveAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\MainWindow.g.cs
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\App.g.cs
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen_MarkupCompile.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen_MarkupCompile.lref
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\MainWindow.baml
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.g.resources
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.Properties.Resources.resources
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.GenerateResource.Cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.exe
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.pdb
