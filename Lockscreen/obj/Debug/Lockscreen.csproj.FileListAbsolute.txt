@@ -26,3 +26,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.GenerateResource.Cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.pdb
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.exe.config
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.exe
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.pdb

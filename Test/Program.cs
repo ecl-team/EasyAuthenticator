@@ -50,9 +50,14 @@ namespace Test
                     }
                 }
                 t.Stop();
+                int SimCount = 0;
+                foreach (int Value in Sim.Values)
+                {
+                    SimCount += Value - 1;
+                }
                 ConsoleLib.WriteLineColor("&aFinished job, took &e" + t.ElapsedMilliseconds + " ms");
-                ConsoleLib.WriteLineColor("&aFound &e" + Sim.Count + " &asimilarities.");
-                Similarities += Sim.Count;
+                ConsoleLib.WriteLineColor("&aFound &e" + SimCount + " &asimilarities.");
+                Similarities += SimCount;
                 Loops++;
                 ConsoleLib.WriteLineColor("&aChance of breach: &e" + (double)Similarities / Loops / 655.36 + "%\n");
             }
