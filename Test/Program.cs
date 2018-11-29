@@ -8,6 +8,7 @@ using qrlib;
 using QRCoder;
 using System.Threading;
 using System.Diagnostics;
+using System.IO;
 
 namespace Test
 {
@@ -15,12 +16,25 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            //Logging
+            string path = Directory.GetCurrentDirectory() + @"\log.txt";
+            if (!File.Exists(path))
+            {
+                // Create a file to write to.
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine("---EasyAuth Token Gen Test---");
+                }
+            }
+
             int Loops = 0;
             int Similarities = 0;
             DateTime Now = DateTime.Now;
             while(true)
             {
                 ConsoleLib.WriteLineColor("&cCreating 65536 tokens...");
+                using (StreamWriter sw = File.AppendText(path)) { sw.WriteLine("Creating 65536 tokens..."); }
+
                 List<string> Codes = new List<string>();
                 Stopwatch t = new Stopwatch();
                 t.Start();
@@ -31,7 +45,9 @@ namespace Test
                 }
                 t.Stop();
                 ConsoleLib.WriteLineColor("&aFinished job, took &e" + t.ElapsedMilliseconds + " ms");
+                using (StreamWriter sw = File.AppendText(path)) { sw.WriteLine("Finished job, took " + t.ElapsedMilliseconds + " ms"); }
                 ConsoleLib.WriteLineColor("&cChecking code similarities...");
+                using (StreamWriter sw = File.AppendText(path)) { sw.WriteLine("Checking code similatities..."); }
                 Dictionary<string, int> Sim = new Dictionary<string, int>();
                 t.Reset();
                 t.Start();
@@ -56,7 +72,9 @@ namespace Test
                     SimCount += Value - 1;
                 }
                 ConsoleLib.WriteLineColor("&aFinished job, took &e" + t.ElapsedMilliseconds + " ms");
+                using (StreamWriter sw = File.AppendText(path)) { sw.WriteLine("Finished job, took " + t.ElapsedMilliseconds + " ms"); }
                 ConsoleLib.WriteLineColor("&aFound &e" + SimCount + " &asimilarities.");
+                using (StreamWriter sw = File.AppendText(path)) { sw.WriteLine("Found " + SimCount + " similarities"); sw.WriteLine(""); }
                 Similarities += SimCount;
                 Loops++;
                 ConsoleLib.WriteLineColor("&aChance of breach: &e" + (double)Similarities / Loops / 655.36 + "%\n");
