@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAnimatedGif;
 
 namespace Lockscreen
 {
@@ -25,9 +26,28 @@ namespace Lockscreen
             InitializeComponent();
         }
 
+        public async Task Unlock()
+        {
+            var image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri(@"/Unlock.gif", UriKind.Relative);
+            image.EndInit();
+            ImageBehavior.SetAnimatedSource(gifBackground, image);
+        }
+
         private void ClosingEvent(object sender, System.ComponentModel.CancelEventArgs e)
         {
             e.Cancel = true;
+        }
+
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void Unlock_Click(object sender, RoutedEventArgs e)
+        {
+            Unlock();
         }
     }
 }

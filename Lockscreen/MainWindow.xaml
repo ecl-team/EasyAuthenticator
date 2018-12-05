@@ -5,6 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lockscreen"
         mc:Ignorable="d"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         Title="MainWindow" Height="350" Width="525" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#33000000" AllowsTransparency="True" Closing="ClosingEvent" Topmost="True">
-    <Grid/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="gifBackground" gif:ImageBehavior.AnimatedSource="Locked.png" Grid.ColumnSpan="5" Grid.RowSpan="3"/>
+        <Button Content="X" Click="ExitBtn_Click" Grid.Row="1" Grid.Column="1"/>
+        <Button Content="U" Click="Unlock_Click" Grid.Column="3" Grid.Row="1"/>
+    </Grid>
 </Window>
