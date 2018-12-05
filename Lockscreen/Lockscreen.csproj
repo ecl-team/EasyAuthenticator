@@ -103,5 +103,8 @@
   <ItemGroup>
     <Resource Include="Locked.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Shake.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -49,5 +49,22 @@ namespace Lockscreen
         {
             Unlock();
         }
+        
+        public async Task Shake(int seconds)
+        {
+            var image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri(@"/Shake.gif", UriKind.Relative);
+            image.EndInit();
+            ImageBehavior.SetAnimatedSource(gifBackground, image);
+
+            await Task.Delay(seconds * 1000);
+
+            image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri(@"/Locked.png", UriKind.Relative);
+            image.EndInit();
+            ImageBehavior.SetAnimatedSource(gifBackground, image);
+        }
     }
 }

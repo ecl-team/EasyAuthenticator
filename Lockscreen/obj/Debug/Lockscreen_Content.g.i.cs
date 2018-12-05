@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("locked.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("shake.gif")]
 
 
