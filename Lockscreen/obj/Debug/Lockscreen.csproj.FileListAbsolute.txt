@@ -15,7 +15,6 @@ c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Lock
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.exe.config
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Lockscreen.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csprojResolveAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\MainWindow.g.cs
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\App.g.cs
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen_MarkupCompile.cache
@@ -29,3 +28,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen
 C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.exe.config
 C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.exe
 C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Build\Lockscreen.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csprojAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CoreCompileInputs.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CopyComplete

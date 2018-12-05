@@ -11,7 +11,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Debug\Test.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Debug\Test.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Debug\authlib.dll
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Debug\authlib.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.exe.config
@@ -20,3 +19,6 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Build\Test.pdb
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.exe.config
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.exe
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\Test.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csproj.CopyComplete
