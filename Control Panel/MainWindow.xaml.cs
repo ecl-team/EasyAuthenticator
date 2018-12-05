@@ -23,6 +23,33 @@ namespace Control_Panel
         public MainWindow()
         {
             InitializeComponent();
+            TitleL.Content = this.Title;
+        }
+
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SystemCommands.CloseWindow(this);
+        }
+
+        private void MinBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SystemCommands.MinimizeWindow(this);
+        }
+
+        private void TitleDrag(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                this.DragMove();
+            }
+            catch { /* Most Likely Caused By Right-Clicking */}
+        }
+
+        private void Window_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.WindowState = System.Windows.WindowState.Normal;
+            this.Height = 450;
+            this.Width = 800;
         }
     }
 }

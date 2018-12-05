@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Control_Panel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FFE6E6E6" HorizontalAlignment="Left" Height="25" Stroke="#FFE4E4E4" VerticalAlignment="Top" Width="800" MouseDown="TitleDrag" Grid.ColumnSpan="2"/>
+        <Button x:Name="exitBtn" Content="X" HorizontalAlignment="Left" Margin="546,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="ExitBtn_Click" Grid.Column="1"/>
+        <Button x:Name="minBtn" Content="___" HorizontalAlignment="Left" Margin="521,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="MinBtn_Click" Grid.Column="1"/>
+        <Label x:Name="TitleL" Content="EasyAuthentication" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top"/>
+        <Grid Height="100" Margin="0,25,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
