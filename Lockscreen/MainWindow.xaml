@@ -36,11 +36,32 @@
                 <RowDefinition Height="122*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150*"/>
-                <ColumnDefinition Width="200*"/>
-                <ColumnDefinition Width="155*"/>
+                <ColumnDefinition Width="153*"/>
+                <ColumnDefinition Width="102*"/>
+                <ColumnDefinition Width="102*"/>
+                <ColumnDefinition Width="158*"/>
             </Grid.ColumnDefinitions>
-            <TextBox TextWrapping="Wrap" BorderThickness="0" Text="" Grid.Column="1" Grid.Row="1" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#00000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="60"/>
+            <TextBox x:Name="codeInputField" TextWrapping="Wrap" BorderThickness="0" Text="" Grid.Column="1" Grid.Row="1" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#00000000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="60" TextChanged="codeInputField_Changed" Grid.ColumnSpan="2"/>
+            <ProgressBar x:Name="leftBar" BorderThickness="0" Height="10" Grid.Row="1" VerticalAlignment="Bottom" Background="#0000A2FF" BorderBrush="#00BCBCBC" Foreground="#FF00C5FF" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="1" Margin="0,0,-1,0" Grid.Column="1" Maximum="8">
+                <ProgressBar.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ProgressBar.RenderTransform>
+            </ProgressBar>
+            <ProgressBar x:Name="rightBar" BorderThickness="0" Grid.Column="2" Height="10" Grid.Row="1" VerticalAlignment="Bottom" Foreground="#FF00C5FF" Background="#00E6E6E6" BorderBrush="#00BCBCBC" RenderTransformOrigin="0.5,0.5" Margin="-1,0,0,0" Maximum="8">
+                <ProgressBar.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ProgressBar.RenderTransform>
+            </ProgressBar>
         </Grid>
     </Grid>
 </Window>

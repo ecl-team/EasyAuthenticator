@@ -79,17 +79,17 @@ namespace Control_Panel
 
         private void GeneralBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            category = 0;
         }
 
         private void SetupBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            category = 1;
         }
 
         private void SettingsBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            category = 2;
         }
     }
 }

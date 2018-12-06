@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,7 +26,8 @@ namespace Lockscreen
         {
             InitializeComponent();
         }
-
+        private string sMemText = "";
+        private int sMemNumb = 0;
         public async Task Unlock()
         {
             var image = new BitmapImage();
@@ -65,6 +67,48 @@ namespace Lockscreen
             image.UriSource = new Uri(@"/Locked.png", UriKind.Relative);
             image.EndInit();
             ImageBehavior.SetAnimatedSource(gifBackground, image);
+        }
+
+        public async Task progBarUpdate(int value)
+        {
+            await Task.Delay(0);
+            leftBar.Value = value;
+            rightBar.Value = value;
+        }
+
+        public async Task progBar(int value)
+        {
+            await Task.Delay(0);
+            progBar(value - 9);
+            await Task.Delay(0);
+            progBar(value - 8);
+            await Task.Delay(0);
+            progBar(value - 7);
+            await Task.Delay(0);
+            progBar(value - 6);
+            await Task.Delay(0);
+            progBar(value - 5);
+            await Task.Delay(0);
+            progBar(value - 4);
+            await Task.Delay(0);
+            progBar(value - 3);
+            await Task.Delay(0);
+            progBar(value - 2);
+            await Task.Delay(0);
+            progBar(value - 1);
+        }
+
+        private void codeInputField_Changed(object sender, TextChangedEventArgs e)
+        {
+            codeInputField.Text = Regex.Replace(codeInputField.Text, @"\D+", "");
+            if (codeInputField.Text.Length > 8)
+            {
+                codeInputField.Text = sMemText;
+            }
+            progBar(codeInputField.Text.Length);
+            codeInputField.Select(codeInputField.Text.Length, 0);
+            sMemText = codeInputField.Text;
+            sMemNumb = codeInputField.Text.Length;
         }
     }
 }
