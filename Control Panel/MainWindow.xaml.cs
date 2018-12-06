@@ -39,13 +39,26 @@ namespace Control_Panel
 
         public async Task updateVisuals()
         {
+            await Task.Delay(0);
             TitleL.Content = this.Title;
             if (category == 0)
-            { generalGrid.Visibility = Visibility.Visible; setupGrid.Visibility = Visibility.Hidden; settingsGrid.Visibility = Visibility.Hidden; }
+            {
+                generalGrid.Visibility = Visibility.Visible;
+                setupGrid.Visibility = Visibility.Hidden;
+                settingsGrid.Visibility = Visibility.Hidden;
+            }
             else if (category == 1)
-            { generalGrid.Visibility = Visibility.Hidden; setupGrid.Visibility = Visibility.Visible; settingsGrid.Visibility = Visibility.Hidden; }
+            {
+                generalGrid.Visibility = Visibility.Hidden;
+                setupGrid.Visibility = Visibility.Visible;
+                settingsGrid.Visibility = Visibility.Hidden;
+            }
             else if (category == 2)
-            { generalGrid.Visibility = Visibility.Hidden; setupGrid.Visibility = Visibility.Hidden; settingsGrid.Visibility = Visibility.Visible; }
+            {
+                generalGrid.Visibility = Visibility.Hidden;
+                setupGrid.Visibility = Visibility.Hidden;
+                settingsGrid.Visibility = Visibility.Visible;
+            }
         }
 
         private void TitleDrag(object sender, MouseButtonEventArgs e)
@@ -54,7 +67,7 @@ namespace Control_Panel
             {
                 this.DragMove();
             }
-            catch { /* Most Likely Caused By Right-Clicking */}
+            catch { /* Most Likely Caused By Right-Clicking */ }
         }
 
         private void Window_MouseMove(object sender, MouseEventArgs e)
