@@ -20,10 +20,11 @@ namespace Control_Panel
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static int category = 0;
         public MainWindow()
         {
             InitializeComponent();
-            TitleL.Content = this.Title;
+            updateVisuals();
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
@@ -34,6 +35,17 @@ namespace Control_Panel
         private void MinBtn_Click(object sender, RoutedEventArgs e)
         {
             SystemCommands.MinimizeWindow(this);
+        }
+
+        public async Task updateVisuals()
+        {
+            TitleL.Content = this.Title;
+            if (category == 0)
+            { generalGrid.Visibility = Visibility.Visible; setupGrid.Visibility = Visibility.Hidden; settingsGrid.Visibility = Visibility.Hidden; }
+            else if (category == 1)
+            { generalGrid.Visibility = Visibility.Hidden; setupGrid.Visibility = Visibility.Visible; settingsGrid.Visibility = Visibility.Hidden; }
+            else if (category == 2)
+            { generalGrid.Visibility = Visibility.Hidden; setupGrid.Visibility = Visibility.Hidden; settingsGrid.Visibility = Visibility.Visible; }
         }
 
         private void TitleDrag(object sender, MouseButtonEventArgs e)
@@ -50,6 +62,21 @@ namespace Control_Panel
             this.WindowState = System.Windows.WindowState.Normal;
             this.Height = 450;
             this.Width = 800;
+        }
+
+        private void GeneralBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SetupBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SettingsBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
