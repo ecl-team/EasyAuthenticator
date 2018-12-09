@@ -1,4 +1,4 @@
-﻿<Window x:Class="Lockscreen.MainWindow"
+﻿<Window x:Name="WindowMain" x:Class="Lockscreen.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,8 @@
         mc:Ignorable="d"
             
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
-        Title="MainWindow" Height="350" Width="525" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#33000000" AllowsTransparency="True" Closing="ClosingEvent" Topmost="True">
+        Topmost="True"
+        Title="MainWindow" Height="350" Width="525" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#33000000" AllowsTransparency="True" Closing="ClosingEvent">
     <Grid>
 
         <Grid.RowDefinitions>
@@ -62,6 +63,7 @@
                     </TransformGroup>
                 </ProgressBar.RenderTransform>
             </ProgressBar>
+            <Label x:Name="timeLabel" Content="" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" Foreground="White" Visibility="Hidden"/>
         </Grid>
     </Grid>
 </Window>

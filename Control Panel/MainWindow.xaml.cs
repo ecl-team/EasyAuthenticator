@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Control_Panel
 {
     /// <summary>
@@ -20,6 +21,7 @@ namespace Control_Panel
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public static int category = 0;
         public MainWindow()
         {

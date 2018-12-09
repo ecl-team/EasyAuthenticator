@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("shake.gif")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("cooldownafter.gif")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("cooldownbefore.gif")]
 
 
