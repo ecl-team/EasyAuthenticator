@@ -13,3 +13,15 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Debug\Control
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.CoreCompileInputs.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.pdb
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\bin\Debug\Control Panel.exe.config
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\bin\Debug\Control Panel.exe
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\MainWindow.g.cs
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\App.g.cs
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel_MarkupCompile.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel_MarkupCompile.lref
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\MainWindow.baml
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.g.resources
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control_Panel.Properties.Resources.resources
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.GenerateResource.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.CoreCompileInputs.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.exe

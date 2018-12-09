@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using authlib;
-using qrlib;
 using QRCoder;
 using System.Threading;
 using System.Diagnostics;

@@ -10,3 +10,10 @@ C:\Users\victor.back\Documents\EasyAuthenticator\qrlib\obj\Debug\qrlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\qrlib\obj\Debug\qrlib.csprojAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\qrlib\obj\Debug\qrlib.csproj.CoreCompileInputs.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\qrlib\obj\Debug\qrlib.csproj.CopyComplete
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\qrlib\obj\Debug\qrlib.csproj.CoreCompileInputs.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\qrlib\obj\Debug\qrlib.dll
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\qrlib.dll
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\qrlib.pdb
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\qrlib\obj\Debug\qrlib.csproj.CopyComplete
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\qrlib\obj\Debug\qrlib.pdb
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\qrlib\obj\Debug\qrlib.csprojAssemblyReference.cache

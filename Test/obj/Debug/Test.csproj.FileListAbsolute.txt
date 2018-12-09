@@ -22,3 +22,9 @@ C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Buil
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csprojAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Test\obj\Debug\Test.exe
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\Test.exe.config
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\Test.exe
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Test\obj\Debug\Test.csproj.CopyComplete

@@ -32,3 +32,17 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CoreCompileInputs.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CopyComplete
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.exe.config
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\Lockscreen.exe.config
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\Lockscreen.exe
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\MainWindow.g.cs
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\App.g.cs
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen_MarkupCompile.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen_MarkupCompile.lref
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\MainWindow.baml
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.g.resources
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.Properties.Resources.resources
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.GenerateResource.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CoreCompileInputs.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csproj.CopyComplete
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.exe
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Lockscreen\obj\Debug\Lockscreen.csprojAssemblyReference.cache
