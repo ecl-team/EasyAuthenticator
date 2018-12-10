@@ -1,16 +1,15 @@
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\bin\Debug\authlib.dll
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\bin\Debug\authlib.pdb
-c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csprojResolveAssemblyReference.cache
 c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.dll
-c:\users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\authlib.dll
 C:\Users\victor.back\Documents\EasyAuthenticator\Build\authlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.dll
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.pdb
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\authlib.dll
-C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\Build\authlib.pdb
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.csprojAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Debug\authlib.csproj.CoreCompileInputs.cache
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Build\authlib.dll
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\authlib\obj\Debug\authlib.csproj.CoreCompileInputs.cache
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\authlib\obj\Debug\authlib.dll
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csprojAssemblyReference.cache
+C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csproj.CoreCompileInputs.cache

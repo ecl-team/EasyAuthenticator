@@ -15,8 +15,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            ConsoleLib.WriteLineColor("hej&cHej");
-            Console.ReadLine();
+            while (true) {
+                Console.WriteLine(Authentication.CurrentCode("Eclipsum"));
+                Thread.Sleep(1000);
+            }
         }
 
         public static void BreachTest()
