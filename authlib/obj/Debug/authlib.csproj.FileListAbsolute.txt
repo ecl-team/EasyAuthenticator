@@ -13,3 +13,4 @@ C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\authlib\o
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\authlib\obj\Debug\authlib.dll
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csprojAssemblyReference.cache
 C:\Users\filip.torn\Documents\Visual Studio 2017\Projects\EasyAuthenticator\authlib\obj\Debug\authlib.csproj.CoreCompileInputs.cache
+C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\authlib\obj\Debug\authlib.csprojAssemblyReference.cache

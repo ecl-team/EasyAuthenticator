@@ -15,10 +15,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            while (true) {
-                Console.WriteLine(Authentication.CurrentCode("Eclipsum"));
-                Thread.Sleep(1000);
-            }
+            BreachTest();
         }
 
         public static void BreachTest()
