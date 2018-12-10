@@ -1,0 +1,6 @@
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\bin\Release\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\bin\Release\authlib.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Release\authlib.csprojAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Release\authlib.csproj.CoreCompileInputs.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Release\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\authlib\obj\Release\authlib.pdb

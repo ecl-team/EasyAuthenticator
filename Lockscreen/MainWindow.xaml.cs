@@ -63,7 +63,7 @@ namespace Lockscreen
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
             UnhookWindowsHookEx(hHook); //Remove Keyboard Hook. If this isn't called, there is a chance the user won't be able to use their keyboard afterwards
-            System.Windows.Application.Current.Shutdown();
+            System.Windows.Application.Current.Shutdown();
         }
 
         private void Unlock_Click(object sender, RoutedEventArgs e)
@@ -78,9 +78,9 @@ namespace Lockscreen
             codeInputField.Text = "";
             var image = new BitmapImage();
             image.BeginInit();
-            image.UriSource = new Uri(@"/CooldownBefore.gif", UriKind.Relative);
+            image.UriSource = new Uri(@"/CooldownBefore.gif", UriKind.Relative);
             image.EndInit();
-            ImageBehavior.SetAnimatedSource(gifBackground, image);
+            ImageBehavior.SetAnimatedSource(gifBackground, image);
 
             await Task.Delay(500);
 
@@ -89,7 +89,7 @@ namespace Lockscreen
             for (int i = 0; i < s + 1; i++)
             {
                 timeLabel.Content = ts.ToString("m\\:ss");
-                ts = ts.Subtract(TimeSpan.FromSeconds(1));
+                ts = ts.Subtract(TimeSpan.FromSeconds(1));
                 await Task.Delay(1000);
             }
             timeLabel.Visibility = Visibility.Hidden;
@@ -137,7 +137,7 @@ namespace Lockscreen
                 image.UriSource = new Uri(@"/Locked.png", UriKind.Relative);
                 image.EndInit();
                 ImageBehavior.SetAnimatedSource(gifBackground, image);
-                this.codeInputField.Focus();
+                this.codeInputField.Focus();
             }
         }
 
@@ -165,23 +165,23 @@ namespace Lockscreen
         {
             await Task.Delay(0);
             if (Convert.ToInt32(codeInputField.Text) == 12345678)
-                Unlock();
+                Unlock();
             else
-                Shake();
+                Shake();
         }
 
         private async void codeInputField_Changed(object sender, TextChangedEventArgs e)
         {
-                await Task.Delay(0);
-                int SelStart = codeInputField.SelectionStart;
-                codeInputField.Text = Regex.Replace(codeInputField.Text, @"\D+", "");
+                await Task.Delay(0);
+                int SelStart = codeInputField.SelectionStart;
+                codeInputField.Text = Regex.Replace(codeInputField.Text, @"\D+", "");
                 if (codeInputField.Text.Length > 8)
-                    codeInputField.Text = codeInputField.Text.Substring(0, 8);
-                codeInputField.Select(SelStart, 0);
-                progBar(codeInputField.Text.Length);
+                    codeInputField.Text = codeInputField.Text.Substring(0, 8);
+                codeInputField.Select(SelStart, 0);
+                progBar(codeInputField.Text.Length);
             if (codeInputField.Text.Length == 8)
             {
-                checkCode();
+                checkCode();
             }
         }
 
