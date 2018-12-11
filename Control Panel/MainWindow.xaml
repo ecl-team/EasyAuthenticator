@@ -14,9 +14,9 @@
         <Button x:Name="exitBtn" Content="X" HorizontalAlignment="Left" Margin="775,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="ExitBtn_Click"/>
         <Button x:Name="minBtn" Content="___" HorizontalAlignment="Left" Margin="750,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="MinBtn_Click"/>
         <Label x:Name="TitleL" Content="EasyAuthentication" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,25,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="55" Margin="0,77,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,132,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
+        <Rectangle x:Name="generalB" Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,25,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
+        <Rectangle x:Name="setupB" Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="55" Margin="0,77,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
+        <Rectangle x:Name="otherB" Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,132,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
         <Button x:Name="generalBtn" BorderThickness="0" Content="General" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,25,0,0" Click="GeneralBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
@@ -38,7 +38,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button x:Name="setupBtn" BorderThickness="0" Content="Setup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,76,0,0" Click="SetupBtn_Click">
+        <Button x:Name="setupBtn" BorderThickness="0" Content="Setup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="56" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,76,0,0" Click="SetupBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="Green"/>
