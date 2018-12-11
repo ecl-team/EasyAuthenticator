@@ -18,7 +18,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfAnimatedGif;
 
-
 namespace Lockscreen
 {
     /// <summary>
@@ -26,14 +25,11 @@ namespace Lockscreen
     /// </summary>
     public partial class MainWindow : Window
     {
-        public bool debug = true;
-
         public MainWindow()
         {
             InitializeComponent();
             FocusManager.SetFocusedElement(WindowMain, codeInputField);
-            //Disable window bypassing unless debug is on
-            if (!debug)
+            if (false)
             {
                 IntPtr hModule = GetModuleHandle(IntPtr.Zero);
                 hookProc = new LowLevelKeyboardProcDelegate(LowLevelKeyboardProc);
@@ -55,6 +51,8 @@ namespace Lockscreen
             image.UriSource = new Uri(@"/Unlock.gif", UriKind.Relative);
             image.EndInit();
             ImageBehavior.SetAnimatedSource(gifBackground, image);
+            await Task.Delay(1000);
+            Application.Current.Shutdown();
         }
 
         private void ClosingEvent(object sender, System.ComponentModel.CancelEventArgs e)
@@ -65,12 +63,12 @@ namespace Lockscreen
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
             UnhookWindowsHookEx(hHook); //Remove Keyboard Hook. If this isn't called, there is a chance the user won't be able to use their keyboard afterwards
-            System.Windows.Application.Current.Shutdown();
+            Application.Current.Shutdown();
         }
 
         private void Unlock_Click(object sender, RoutedEventArgs e)
         {
-            codeInputField.Text = "12345678";
+            codeInputField.Text = Authentication.CurrentCode("Eclipsum");
         }
 
         public async Task Cooldown(int s)
@@ -102,7 +100,6 @@ namespace Lockscreen
             img.UriSource = new Uri(@"/CooldownAfter.gif", UriKind.Relative);
             img.EndInit();
             ImageBehavior.SetAnimatedSource(gifBackground, img);
-
             await Task.Delay(1000);
 
             codeInputField.IsEnabled = true;
