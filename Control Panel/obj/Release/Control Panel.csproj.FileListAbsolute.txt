@@ -1,7 +1,6 @@
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\bin\Release\Control Panel.exe.config
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\bin\Release\Control Panel.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\bin\Release\Control Panel.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel.csprojAssemblyReference.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\MainWindow.g.cs
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\App.g.cs
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel_MarkupCompile.cache

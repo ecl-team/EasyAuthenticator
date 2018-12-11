@@ -5,19 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Control_Panel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
+        Title="MainWindow" Height="450" MinHeight="450" Width="800" MinWidth="800" WindowStyle="None" AllowsTransparency="True" ResizeMode="CanResizeWithGrip">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Rectangle x:Name="titleBarRect" Fill="#FFE6E6E6" HorizontalAlignment="Left" Height="25" Stroke="#FFE4E4E4" VerticalAlignment="Top" Width="800" MouseDown="TitleDrag"/>
-        <Button x:Name="exitBtn" Content="X" HorizontalAlignment="Left" Margin="775,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="ExitBtn_Click"/>
-        <Button x:Name="minBtn" Content="___" HorizontalAlignment="Left" Margin="750,0,0,0" VerticalAlignment="Top" Width="25" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="MinBtn_Click"/>
+        <Rectangle x:Name="titleBarRect" Fill="#FFE6E6E6" Height="25" Stroke="#FFE4E4E4" VerticalAlignment="Top" MouseDown="TitleDrag" Grid.ColumnSpan="2"/>
+        <Button x:Name="exitBtn" Content="X" VerticalAlignment="Top" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="ExitBtn_Click" Grid.Column="1" HorizontalAlignment="Right" Width="25"/>
+        <Button x:Name="minBtn" Content="___" Margin="0,0,25,0" VerticalAlignment="Top" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FFE6E6E6" BorderBrush="#FFE6E6E6" Click="MinBtn_Click" Grid.Column="1" HorizontalAlignment="Right" Width="25"/>
         <Label x:Name="TitleL" Content="EasyAuthentication" HorizontalAlignment="Left" Margin="0,-1,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,25,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="55" Margin="0,77,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
-        <Rectangle Fill="White" StrokeThickness="0" HorizontalAlignment="Left" Height="51" Margin="0,132,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="170"/>
-        <Button x:Name="generalBtn" BorderThickness="0" Content="General" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,25,0,0" Click="GeneralBtn_Click">
+        <Rectangle Fill="White" StrokeThickness="0" Height="51" Margin="0,25,0,0" Stroke="#7F000000" VerticalAlignment="Top"/>
+        <Rectangle Fill="White" StrokeThickness="0" Height="55" Margin="0,77,0,0" Stroke="#7F000000" VerticalAlignment="Top"/>
+        <Rectangle Fill="White" StrokeThickness="0" Height="51" Margin="0,132,0,0" Stroke="#7F000000" VerticalAlignment="Top"/>
+        <Button x:Name="generalBtn" BorderThickness="0" Content="General" VerticalAlignment="Top" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,25,0,0" Click="GeneralBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="Green"/>
@@ -38,7 +39,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button x:Name="setupBtn" BorderThickness="0" Content="Setup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,76,0,0" Click="SetupBtn_Click">
+        <Button x:Name="setupBtn" BorderThickness="0" Content="Setup" VerticalAlignment="Top" Height="57" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,76,0,0" Click="SetupBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="Green"/>
@@ -59,7 +60,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button x:Name="otherBtn" BorderThickness="0" Content="Other" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,127,0,0" Click="SettingsBtn_Click">
+        <Button x:Name="otherBtn" BorderThickness="0" Content="Other" VerticalAlignment="Top" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,127,0,0" Click="SettingsBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="Green"/>
@@ -80,14 +81,14 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Grid x:Name="generalGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden"/>
-        <Grid x:Name="setupGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Visible">
-            <Image x:Name="qrView" Height="200" Margin="425,0,0,0" VerticalAlignment="Top" Source="EmptyQRCode.png"/>
-            <Button x:Name="revealQR" Content="Reveal" BorderThickness="0" HorizontalAlignment="Left" Margin="425,200,0,0" VerticalAlignment="Top" Width="100" Click="RevealQR_Click"/>
-            <Button x:Name="RegenerateQR" Content="Regenerate" BorderThickness="0" HorizontalAlignment="Left" Margin="525,200,0,0" VerticalAlignment="Top" Width="100"/>
+        <Grid x:Name="generalGrid" HorizontalAlignment="Left" Height="425" Margin="0,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden" Grid.Column="1"/>
+        <Grid x:Name="setupGrid" Margin="0,25,0,0" Visibility="Visible" Grid.Column="1">
+            <Image x:Name="qrView" Height="200" VerticalAlignment="Top" Source="EmptyQRCode.png" HorizontalAlignment="Right" Width="200"/>
+            <Button x:Name="revealQR" Content="Reveal" BorderThickness="0" HorizontalAlignment="Right" Margin="0,200,100,0" VerticalAlignment="Top" Width="100" Click="RevealQR_Click"/>
+            <Button x:Name="RegenerateQR" Content="Regenerate" BorderThickness="0" Margin="0,200,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100"/>
         </Grid>
-        <Grid x:Name="settingsGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden"/>
-        <Rectangle Fill="#7FF4F4F5" HorizontalAlignment="Left" Height="1" Margin="10,132,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="160"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="10,76,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="160"/>
+        <Grid x:Name="settingsGrid" HorizontalAlignment="Left" Height="425" Margin="0,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden" Grid.Column="1"/>
+        <Rectangle Fill="#3F000000" HorizontalAlignment="Left" Height="1" Margin="10,132,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="160"/>
+        <Rectangle Fill="#3F000000" HorizontalAlignment="Left" Height="1" Margin="10,76,0,0" Stroke="#7F000000" VerticalAlignment="Top" Width="160"/>
     </Grid>
 </Window>

@@ -26,7 +26,7 @@ namespace Control_Panel
         public MainWindow()
         {
             InitializeComponent();
-            updateVisuals(0);
+            updateVisuals(-1);
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
@@ -68,12 +68,6 @@ namespace Control_Panel
             catch { /* Most Likely Caused By Right-Clicking */ }
         }
 
-        private void Window_MouseMove(object sender, MouseEventArgs e)
-        {
-            this.WindowState = System.Windows.WindowState.Normal;
-            this.Height = 450;
-            this.Width = 800;
-        }
 
         private void GeneralBtn_Click(object sender, RoutedEventArgs e)
         {
