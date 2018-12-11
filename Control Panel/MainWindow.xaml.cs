@@ -21,8 +21,8 @@ namespace Control_Panel
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Uri qrPath = new Uri(@"C:\test.png"); //The users QR code path here! Thank
         public static bool qrIsRevealed = false;
-        public static int category = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace Control_Panel
         private void MinBtn_Click(object sender, RoutedEventArgs e)
         { SystemCommands.MinimizeWindow(this); }
 
-        public async Task updateVisuals()
+        public async Task updateVisuals(int category)
         {
             await Task.Delay(0);
             TitleL.Content = this.Title;
@@ -57,10 +57,6 @@ namespace Control_Panel
                 setupGrid.Visibility = Visibility.Hidden;
                 settingsGrid.Visibility = Visibility.Visible;
             }
-            if (qrIsRevealed)
-                qrView.Source = new BitmapImage(new Uri(qrPath));
-            else
-                qrView.Source = new BitmapImage(new Uri("pack://application:,,,/AssemblyName;component/EmptyQRCode.png"));
         }
 
         private void TitleDrag(object sender, MouseButtonEventArgs e)
@@ -81,29 +77,25 @@ namespace Control_Panel
 
         private void GeneralBtn_Click(object sender, RoutedEventArgs e)
         {
-            category = 0;
-            updateVisuals();
+            updateVisuals(0);
         }
 
         private void SetupBtn_Click(object sender, RoutedEventArgs e)
         {
-            category = 1;
-            updateVisuals();
+            updateVisuals(1);
         }
 
         private void SettingsBtn_Click(object sender, RoutedEventArgs e)
         {
-            category = 2;
-            updateVisuals();
+            updateVisuals(2);
         }
 
         private void RevealQR_Click(object sender, RoutedEventArgs e)
         {
             if (qrIsRevealed)
-                qrIsRevealed = false;
+                qrView.Source = new BitmapImage(qrPath);
             else
-                qrIsRevealed = true;
-            updateVisuals();
+                qrView.Source = new BitmapImage(new Uri("pack://application:,,,/AssemblyName;component/EmptyQRCode.png"));
         }
     }
 }
