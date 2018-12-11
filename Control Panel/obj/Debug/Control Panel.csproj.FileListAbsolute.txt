@@ -25,3 +25,16 @@ C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control P
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.GenerateResource.cache
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.CoreCompileInputs.cache
 C:\Users\Eclipsum\Documents\GitHub\EasyAuthenticator\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.exe
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csprojAssemblyReference.cache
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\MainWindow.g.cs
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\App.g.cs
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel_MarkupCompile.cache
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel_MarkupCompile.lref
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.exe
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\bin\Debug\Control Panel.exe.config
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\bin\Debug\Control Panel.exe
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\MainWindow.baml
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.g.resources
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control_Panel.Properties.Resources.resources
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.GenerateResource.cache
+C:\Users\filip.torn\documents\visual studio 2017\Projects\EasyAuthenticator\Control Panel\obj\Debug\Control Panel.csproj.CoreCompileInputs.cache

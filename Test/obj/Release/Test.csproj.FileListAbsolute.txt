@@ -1,0 +1,11 @@
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\Test.exe.config
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\Test.exe
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\Test.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\QRCoder.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\bin\Release\authlib.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Release\Test.csprojAssemblyReference.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Release\Test.csproj.CoreCompileInputs.cache
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Release\Test.csproj.CopyComplete
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Release\Test.exe
+C:\Users\victor.back\Documents\EasyAuthenticator\Test\obj\Release\Test.pdb
