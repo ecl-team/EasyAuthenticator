@@ -78,7 +78,11 @@
             </Button.Style>
         </Button>
         <Grid x:Name="generalGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden"/>
-        <Grid x:Name="setupGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden"/>
+        <Grid x:Name="setupGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Visible">
+            <Image x:Name="qrView" Height="200" Margin="425,0,0,0" VerticalAlignment="Top" Source="EmptyQRCode.png"/>
+            <Button x:Name="revealQR" Content="Reveal" BorderThickness="0" HorizontalAlignment="Left" Margin="425,200,0,0" VerticalAlignment="Top" Width="100" Click="RevealQR_Click"/>
+            <Button x:Name="RegenerateQR" Content="Regenerate" BorderThickness="0" HorizontalAlignment="Left" Margin="525,200,0,0" VerticalAlignment="Top" Width="100"/>
+        </Grid>
         <Grid x:Name="settingsGrid" HorizontalAlignment="Left" Height="425" Margin="175,25,0,0" VerticalAlignment="Top" Width="625" Visibility="Hidden"/>
     </Grid>
 </Window>

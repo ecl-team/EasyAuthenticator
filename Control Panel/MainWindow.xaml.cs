@@ -21,7 +21,7 @@ namespace Control_Panel
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        public static bool qrIsRevealed = false;
         public static int category = 0;
         public MainWindow()
         {
@@ -57,6 +57,10 @@ namespace Control_Panel
                 setupGrid.Visibility = Visibility.Hidden;
                 settingsGrid.Visibility = Visibility.Visible;
             }
+            if (qrIsRevealed)
+                qrView.Source = new BitmapImage(new Uri(qrPath));
+            else
+                qrView.Source = new BitmapImage(new Uri("pack://application:,,,/AssemblyName;component/EmptyQRCode.png"));
         }
 
         private void TitleDrag(object sender, MouseButtonEventArgs e)
@@ -76,12 +80,30 @@ namespace Control_Panel
         }
 
         private void GeneralBtn_Click(object sender, RoutedEventArgs e)
-        { category = 0; }
+        {
+            category = 0;
+            updateVisuals();
+        }
 
         private void SetupBtn_Click(object sender, RoutedEventArgs e)
-        { category = 1; }
+        {
+            category = 1;
+            updateVisuals();
+        }
 
         private void SettingsBtn_Click(object sender, RoutedEventArgs e)
-        { category = 2; }
+        {
+            category = 2;
+            updateVisuals();
+        }
+
+        private void RevealQR_Click(object sender, RoutedEventArgs e)
+        {
+            if (qrIsRevealed)
+                qrIsRevealed = false;
+            else
+                qrIsRevealed = true;
+            updateVisuals();
+        }
     }
 }
