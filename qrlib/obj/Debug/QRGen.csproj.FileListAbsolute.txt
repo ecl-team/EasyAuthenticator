@@ -1,8 +1,0 @@
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\bin\Debug\QRGen.dll
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\bin\Debug\QRGen.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\bin\Debug\QRCoder.dll
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\obj\Debug\QRGen.dll
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\obj\Debug\QRGen.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\Build\QRGen.dll
-C:\Users\victor.back\Documents\EasyAuthenticator\Build\QRGen.pdb
-C:\Users\victor.back\Documents\EasyAuthenticator\QRGen\obj\Debug\QRGen.csprojResolveAssemblyReference.cache

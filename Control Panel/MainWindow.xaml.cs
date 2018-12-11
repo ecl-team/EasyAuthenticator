@@ -26,7 +26,7 @@ namespace Control_Panel
         public MainWindow()
         {
             InitializeComponent();
-            updateVisuals(0);
+            updateVisuals();
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
