@@ -1,4 +1,5 @@
-﻿using System;
+﻿using authlib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -16,6 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfAnimatedGif;
+
 
 namespace Lockscreen
 {
@@ -115,9 +117,7 @@ namespace Lockscreen
             else if (tries == 6)
                 Cooldown(60);
             else if (tries >= 9 && tries % 3 == 0)
-            {
                 Cooldown(300);
-            }
             else
             {
                 await Task.Delay(0);
@@ -164,7 +164,7 @@ namespace Lockscreen
         public async Task checkCode()
         {
             await Task.Delay(0);
-            if (Convert.ToInt32(codeInputField.Text) == 12345678)
+            if (Authentication.Verify("Eclipsum", codeInputField.Text))
                 Unlock();
             else
                 Shake();

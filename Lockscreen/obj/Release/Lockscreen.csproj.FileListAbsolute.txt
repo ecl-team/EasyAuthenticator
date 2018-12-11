@@ -16,3 +16,5 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Release\Lockscre
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Release\Lockscreen.csproj.CopyComplete
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Release\Lockscreen.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\obj\Release\Lockscreen.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\bin\Release\authlib.dll
+C:\Users\victor.back\Documents\EasyAuthenticator\Lockscreen\bin\Release\authlib.pdb

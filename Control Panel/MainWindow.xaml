@@ -56,7 +56,7 @@
                 </Style>
             </Button.Style>
         </Button>
-        <Button x:Name="settingsBtn" BorderThickness="0" Content="Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,127,0,0" Click="SettingsBtn_Click">
+        <Button x:Name="otherBtn" BorderThickness="0" Content="Other" HorizontalAlignment="Left" VerticalAlignment="Top" Width="175" Height="51" Background="#00000000" BorderBrush="#00707070" Foreground="#FF292929" FontSize="36" Margin="0,127,0,0" Click="SettingsBtn_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="Green"/>

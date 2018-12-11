@@ -30,14 +30,10 @@ namespace Control_Panel
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
-        {
-            SystemCommands.CloseWindow(this);
-        }
+        { SystemCommands.CloseWindow(this); }
 
         private void MinBtn_Click(object sender, RoutedEventArgs e)
-        {
-            SystemCommands.MinimizeWindow(this);
-        }
+        { SystemCommands.MinimizeWindow(this); }
 
         public async Task updateVisuals()
         {
@@ -80,18 +76,12 @@ namespace Control_Panel
         }
 
         private void GeneralBtn_Click(object sender, RoutedEventArgs e)
-        {
-            category = 0;
-        }
+        { category = 0; }
 
         private void SetupBtn_Click(object sender, RoutedEventArgs e)
-        {
-            category = 1;
-        }
+        { category = 1; }
 
         private void SettingsBtn_Click(object sender, RoutedEventArgs e)
-        {
-            category = 2;
-        }
+        { category = 2; }
     }
 }

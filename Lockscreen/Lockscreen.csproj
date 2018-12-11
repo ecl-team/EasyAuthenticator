@@ -111,5 +111,11 @@
     <Resource Include="CooldownAfter.gif" />
     <Resource Include="CooldownBefore.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\authlib\authlib.csproj">
+      <Project>{67609aa2-dfc2-4158-8d5c-b8a3955caed0}</Project>
+      <Name>authlib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

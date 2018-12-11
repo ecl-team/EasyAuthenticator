@@ -17,7 +17,7 @@ namespace Test
         {
             while (true) {
                 Console.WriteLine(Authentication.CurrentCode("Eclipsum"));
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
             }
         }
 
