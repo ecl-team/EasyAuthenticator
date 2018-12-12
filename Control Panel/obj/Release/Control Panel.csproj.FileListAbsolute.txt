@@ -12,3 +12,4 @@ C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Contr
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel.csproj.CoreCompileInputs.cache
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel.exe
 C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel.pdb
+C:\Users\victor.back\Documents\EasyAuthenticator\Control Panel\obj\Release\Control Panel.csprojAssemblyReference.cache

@@ -86,10 +86,12 @@ namespace Control_Panel
 
         private void RevealQR_Click(object sender, RoutedEventArgs e)
         {
-            if (qrIsRevealed)
-                qrView.Source = new BitmapImage(qrPath);
-            else
-                qrView.Source = new BitmapImage(new Uri("pack://application:,,,/AssemblyName;component/EmptyQRCode.png"));
+            try {
+                if (qrIsRevealed)
+                    qrView.Source = new BitmapImage(qrPath);
+                else
+                    qrView.Source = new BitmapImage(new Uri("pack://application:,,,/AssemblyName;component/EmptyQRCode.png"));
+            } catch { /*File missing or moved... Probably */ }
         }
     }
 }

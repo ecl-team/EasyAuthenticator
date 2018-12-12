@@ -1,6 +1,7 @@
 ﻿using authlib;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -27,9 +28,10 @@ namespace Lockscreen
     {
         public MainWindow()
         {
+            bool debug = false;
             InitializeComponent();
             FocusManager.SetFocusedElement(WindowMain, codeInputField);
-            if (false)
+            if (!debug)
             {
                 IntPtr hModule = GetModuleHandle(IntPtr.Zero);
                 hookProc = new LowLevelKeyboardProcDelegate(LowLevelKeyboardProc);
@@ -38,6 +40,11 @@ namespace Lockscreen
                 {
                     MessageBox.Show("Failed to hook keyboard, error = " + Marshal.GetLastWin32Error());
                 }
+            }
+            else
+            {
+                ExitBtn.Visibility = Visibility.Visible;
+                UnlockBtn.Visibility = Visibility.Visible;
             }
         }
 

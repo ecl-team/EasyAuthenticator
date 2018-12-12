@@ -27,8 +27,8 @@
             <ColumnDefinition Width="10"/>
         </Grid.ColumnDefinitions>
         <Image x:Name="gifBackground" gif:ImageBehavior.AnimatedSource="Locked.png" Grid.ColumnSpan="7" Grid.RowSpan="5"/>
-        <Button Content="X" Click="ExitBtn_Click" Grid.Row="1" Grid.Column="1"/>
-        <Button Content="U" Click="Unlock_Click" Grid.Column="5" Grid.Row="1"/>
+        <Button x:Name="ExitBtn" Content="X" Click="ExitBtn_Click" Grid.Row="1" Grid.Column="1" Visibility="Hidden"/>
+        <Button x:Name="UnlockBtn" Content="U" Click="Unlock_Click" Grid.Column="5" Grid.Row="1" Visibility="Hidden"/>
         <Grid Grid.ColumnSpan="6" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4">
             <Grid.RowDefinitions>
                 <RowDefinition Height="205*"/>
