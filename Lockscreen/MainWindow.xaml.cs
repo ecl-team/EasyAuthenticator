@@ -46,6 +46,21 @@ namespace Lockscreen
                 ExitBtn.Visibility = Visibility.Visible;
                 UnlockBtn.Visibility = Visibility.Visible;
             }
+            keepFocus();
+        }
+
+        private async Task keepFocus()
+        {
+            await Task.Delay(0);
+            while (true)
+            {
+                await Task.Delay(250);
+                this.Focus();
+                try {
+                    Process[] proc = Process.GetProcessesByName("Taskmgr");
+                    proc[0].Kill();
+                } catch { }
+            }
         }
 
         private int tries = 0;
@@ -233,7 +248,7 @@ namespace Lockscreen
                             (lParam.vkCode == 0x73 && lParam.flags == 32) || // Alt+F4
                             (lParam.vkCode == 0x1b && lParam.flags == 0) || // Ctrl+Esc
                             (lParam.vkCode == 0x5b && lParam.flags == 1) || // Left Windows Key
-                            (lParam.vkCode == 0x5c && lParam.flags == 1))    // Right Windows Key
+                            (lParam.vkCode == 0x5c && lParam.flags == 1))   // Right Windows Key
                         {
                             return 1; //Do not handle key events
                         }
